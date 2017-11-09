@@ -1,0 +1,45 @@
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+										4. Typography
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+h1{
+  font-size:3em;
+  margin:.3125em 0 .5em;
+}
+
+h2,h4{
+  font-size: 48px;
+  text-transform: uppercase;
+  color: map_get($colors, 'red');
+  margin: 30px 0 30px;
+  font-weight: 600;
+}
+
+h3{
+  font-size:1.875em;
+  margin:.5em 0 .8em;
+}
+h4{
+  font-size:1.5em;
+  margin:.625em 0 1em;
+}
+
+h5{
+  font-size:1.125em;
+  margin:.8333em 0 1.3333em;
+  //line-height:1.6;
+}
+h6{
+  font-size:1em;
+  margin:0.9375em 0 1.5em;
+}
+a{
+  color:#a65bf4;
+  transition: color .3s, border .3s, opacity .3s;
+  -webkit-transition: color .3s, border .3s, opacity .3s;
+  -moz-transition: color .3s, border .3s, opacity .3s;
+}
+a:hover{
+  text-decoration: none;
+}

@@ -1,0 +1,98 @@
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+										3. Global Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+html, body {
+  overflow-x:hidden;
+}
+body {
+  overflow:hidden;
+  font-size: map_get($body,'font-size');
+  font-weight: map_get($body,'font-weight');
+  line-height: map_get($body,'line-height');
+  font-family: map_get($body,'font-family'), sans-serif;
+  color: map_get($body,'color');
+  position:relative;
+}
+img, iframe {
+  max-width:100%;
+}
+img {
+  height: auto;
+}
+
+.custom-tabs{
+  .nav{
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    padding-top: 21px;
+  }
+
+  .nav-item{
+    margin-right: 23px;
+    margin-left: 37px;
+  }
+
+  .nav-link{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: .5em 0 .4em;
+    position: relative;
+
+    &:after{
+      content: '';
+      position: absolute;
+      bottom:-3px;
+      left:0;
+      width: 100%;
+      height: 3px;
+      background: map_get($colors, 'red');
+      opacity: 0;
+      transition: .2s ease-in-out;
+    }
+
+    &.active{
+      &:after{
+        opacity: 1;
+      }
+    }
+  }
+
+  .tab-pane{
+    h2{
+      margin: 58px 0 45px;
+    }
+
+    //img{
+    //  width: 100%;
+    //}
+  }
+}
+
+.fin-longevity{
+  padding-top: 45px;
+
+  .icon-block{
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  i{
+    display: block;
+    margin: 0 auto 5px;
+  }
+
+  p{
+    text-align: center;
+  }
+}
+
+.first-block{
+  background: url('../images/bg.png');
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

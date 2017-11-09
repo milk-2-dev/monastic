@@ -1,0 +1,331 @@
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+										6. Footer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#footer{
+    font-size:.875em;
+}
+#footer.style-dark #main-footer{
+    background:#111213;
+}
+#footer.style-dark #lower-footer{
+    background:#0c0d0d;
+}
+#main-footer{
+    background:#2d3742;
+    padding:30px 0;
+}
+#footer .widget h6{
+    text-transform:uppercase;
+    font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;
+    font-weight:700;
+}
+#footer .widget a{
+    font-weight:700;
+    border-bottom:1px solid transparent;
+}
+#footer a:hover{
+    color:#a9b5c7;
+    text-decoration:none;
+    border-bottom-color:#a9b5c7;
+}
+#main-footer .row{
+    margin:0 -40px;
+}
+//#main-footer .row>div{
+//  padding:0 40px;
+//}
+#footer.style2 #lower-footer{
+    background:#061322;
+}
+#footer.alternative .sidebar_widget + .sidebar_widget {
+    margin-top: 22px;
+}
+#footer.alternative .widget_social_media {
+    text-align: center;
+}
+#footer.alternative .widget_social_media li {
+    margin-right: 17px;
+}
+#footer.alternative .widget_social_media li:last-child {
+    margin-right: 0;
+}
+#footer.alternative .widget_social_media li a {
+    width: auto;
+    height: auto;
+    border-bottom: none;
+    font-size: 22px;
+    color: #6c7583;
+    border: none;
+    background-color: transparent;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition:    all 0.3s ease;
+    transition:		 all 0.3s ease;
+}
+#footer.alternative .widget_social_media li a i:after {
+    content: none;
+}
+#footer.alternative .widget_social_media li a:hover {
+    color: #ffffff;
+}
+#footer.alternative .sidebar_widget > h5 {
+    font-family:'Proxima Nova', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#footer.alternative #lower-footer {
+    padding: 15px 0;
+}
+
+#footer.style3 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+#footer.style3 #main-footer,
+#footer.style3 #lower-footer {
+    background-color: transparent;
+    padding: 0;
+}
+#footer.style3 #main-footer {
+    padding-top: 60px;
+}
+#footer.style3 #lower-footer {
+    margin-top: 80px;
+    padding: 20px;
+    border-top: 1px solid #232323;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+#footer.style3 #lower-footer p {
+    font-size: 14px;
+}
+#footer.style3 a,
+#footer.style3 .widget > h3,
+#footer.style3 .widget > h5,
+#footer.style3 .widget > h6 {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+#footer.style3 .widget > h3,
+#footer.style3 .widget > h5,
+#footer.style3 .widget > h6 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+#footer.style3 .widget ul {
+    font-weight: 400;
+    list-style: none;
+    margin: 0;
+}
+#footer.style3 .widget ul li,
+#footer.style3 .widget ul li a {
+    font-weight: 400;
+}
+#footer.style3 .widget ul:not(.iconic-list) li {
+    padding-left: 0;
+}
+#footer.style3 .widget ul li:before {
+    content: none;
+}
+#footer.style3 .widget .social-media {
+    margin-bottom: 18px;
+}
+#footer.style3 .social-media li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 9px 9px 0;
+    line-height: 35px;
+    text-align: center;
+}
+#footer.style3 .social-media li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4e4e4e;
+    color: #4e4e4e;
+    border-radius: 50em;
+}
+#footer.style3 .iconic-list i {
+    font-size: 1.5em;
+    top: 0;
+    -webkit-transform: translateY(0);
+    -moz-transform:	translateY(0);
+    -ms-transform:	 translateY(0);
+    transform:		 translateY(0);
+}
+#footer.style3 .social-media li a:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/********************************************
+			  6-1. Footer Widgets
+*********************************************/
+
+/********************************************
+			6-1-1. Latest Posts
+*********************************************/
+#footer .widget_popular_posts_entries .post-entry + .post-entry,
+#footer .widget_latest_posts_entries .post-entry + .post-entry{
+    margin-top:20px;
+    padding-top:20px;
+    position:relative;
+}
+#footer .widget_popular_posts_entries .post-entry + .post-entry:before,
+#footer .widget_latest_posts_entries .post-entry + .post-entry:before{
+    position:absolute;
+    content:'';
+    left:0;
+    top:0;
+    width:60px;
+    border-top:3px solid #dce3ef;
+}
+#footer .widget_popular_posts_entries .post-meta,
+#footer .widget_latest_posts_entries .post-meta{
+    display:block;
+    color:#b4bfd1;
+    font-size:12px;
+}
+
+/********************************************
+			6-1-2. Latest Tweets
+*********************************************/
+#footer .widget_twitter_feed .tweet-entry{
+    padding-left:50px;
+    position:relative;
+}
+#footer .widget_twitter_feed .tweet-entry + .tweet-entry{
+    margin-top:30px;
+}
+#footer .widget_twitter_feed .tweet-entry:before{
+    content:"\f099";
+    font-family:'FontAwesome';
+    position:absolute;
+    left:0;
+    top:0;
+    font-size:30px;
+    line-height:40px;
+    color:#fff;
+}
+#footer .widget_twitter_feed .tweet-entry p{
+    margin:0;
+}
+#footer .widget_twitter_feed .tweet-entry .date{
+    font-size:12px;
+    font-weight:300;
+}
+#footer .widget_latest_tweets_widget>ul>li {
+    padding-left: 50px;
+}
+#footer .widget_latest_tweets_widget>ul>li .tweet-icon {
+    border: none;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 30px;
+}
+#footer .widget_latest_tweets_widget>ul>li:hover .tweet-icon {
+    background: transparent;
+}
+#footer .widget_latest_tweets_widget>ul>li .tweet-date {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: none;
+    color: white;
+}
+
+/********************************************
+			6-2. Lower Footer
+*********************************************/
+#lower-footer{
+    background:#181e28;
+    padding:25px 0;
+}
+#footer .copyright{
+    font-size:.9285em;
+    margin:5px 0;
+    line-height: 30px;
+}
+#footer .social-icons li{
+    font-size:1.5em;
+}
+#footer .social-icons a{
+    color:#fff;
+    opacity:.2;
+}
+#footer .social-icons a:hover{
+    opacity:1;
+}
+#footer .widget select {
+    background: #2D3742;
+}
+#footer .widget label {
+    color: white;
+}
+
+#footer .tagcloud a {
+    border: 2px solid #d1dae8;
+}
+#footer .tagcloud a:hover {
+    color: white;
+    border: 2px solid #a65bf4;
+}
+
+
+.prefooter{
+    background:url('../images/geometry.png');
+    background-color: map_get($colors, 'pink');
+    background-size: cover;
+}
+
+/* =========================================================================
+                                 FOOTER
+========================================================================= */
+
+//#main-footer{
+//    .logo__text{
+//        color: map_get($colors, 'pink');
+//    }
+//}
+
+.menu-footer{
+    ul{
+        padding:0;
+        margin:0;
+        list-style: none;
+
+        li{
+            color:map-get($colors, 'grey');
+            margin-bottom: 10px;
+
+            &:last-child{
+                margin-bottom:0;
+            }
+
+            a{
+                font-family: Helvetica;
+                font-size: 24px;
+                letter-spacing: 0.9px;
+                text-align: left;
+                color: #4a4a4a;
+            }
+        }
+    }
+}

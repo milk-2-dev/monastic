@@ -1,0 +1,33 @@
+.align-left {
+  text-align:left !important;
+}
+.align-right {
+  text-align:right !important;
+}
+.align-center {
+  text-align:center !important;
+}
+img.align-left {
+  float:left;
+  margin:.5em 2em .5em 0;
+}
+img.align-right {
+  float:right;
+  margin:.5em 0 .5em 2em;
+}
+img.align-center {
+  margin:1em auto;
+  display:block;
+}
+
+.resize_none{
+  resize: none;
+}
+
+.mb-60{
+  margin-bottom: 60px!important;
+}
+
+.mt-60{
+  margin-top: 60px!important;
+}

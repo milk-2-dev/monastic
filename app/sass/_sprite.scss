@@ -1,0 +1,178 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$finance1-name: 'finance1';
+$finance1-x: 411px;
+$finance1-y: 148px;
+$finance1-offset-x: -411px;
+$finance1-offset-y: -148px;
+$finance1-width: 79px;
+$finance1-height: 79px;
+$finance1-total-width: 562px;
+$finance1-total-height: 412px;
+$finance1-image: 'sprite.png';
+$finance1: (411px, 148px, -411px, -148px, 79px, 79px, 562px, 412px, 'sprite.png', 'finance1', );
+$finance2-name: 'finance2';
+$finance2-x: 149px;
+$finance2-y: 276px;
+$finance2-offset-x: -149px;
+$finance2-offset-y: -276px;
+$finance2-width: 54px;
+$finance2-height: 88px;
+$finance2-total-width: 562px;
+$finance2-total-height: 412px;
+$finance2-image: 'sprite.png';
+$finance2: (149px, 276px, -149px, -276px, 54px, 88px, 562px, 412px, 'sprite.png', 'finance2', );
+$finance3-name: 'finance3';
+$finance3-x: 490px;
+$finance3-y: 148px;
+$finance3-offset-x: -490px;
+$finance3-offset-y: -148px;
+$finance3-width: 35px;
+$finance3-height: 35px;
+$finance3-total-width: 562px;
+$finance3-total-height: 412px;
+$finance3-image: 'sprite.png';
+$finance3: (490px, 148px, -490px, -148px, 35px, 35px, 562px, 412px, 'sprite.png', 'finance3', );
+$values1-name: 'values1';
+$values1-x: 0px;
+$values1-y: 0px;
+$values1-offset-x: 0px;
+$values1-offset-y: 0px;
+$values1-width: 226px;
+$values1-height: 131px;
+$values1-total-width: 562px;
+$values1-total-height: 412px;
+$values1-image: 'sprite.png';
+$values1: (0px, 0px, 0px, 0px, 226px, 131px, 562px, 412px, 'sprite.png', 'values1', );
+$values2-name: 'values2';
+$values2-x: 0px;
+$values2-y: 131px;
+$values2-offset-x: 0px;
+$values2-offset-y: -131px;
+$values2-width: 190px;
+$values2-height: 145px;
+$values2-total-width: 562px;
+$values2-total-height: 412px;
+$values2-image: 'sprite.png';
+$values2: (0px, 131px, 0px, -131px, 190px, 145px, 562px, 412px, 'sprite.png', 'values2', );
+$values3-name: 'values3';
+$values3-x: 226px;
+$values3-y: 138px;
+$values3-offset-x: -226px;
+$values3-offset-y: -138px;
+$values3-width: 158px;
+$values3-height: 136px;
+$values3-total-width: 562px;
+$values3-total-height: 412px;
+$values3-image: 'sprite.png';
+$values3: (226px, 138px, -226px, -138px, 158px, 136px, 562px, 412px, 'sprite.png', 'values3', );
+$values4-name: 'values4';
+$values4-x: 0px;
+$values4-y: 276px;
+$values4-offset-x: 0px;
+$values4-offset-y: -276px;
+$values4-width: 149px;
+$values4-height: 136px;
+$values4-total-width: 562px;
+$values4-total-height: 412px;
+$values4-image: 'sprite.png';
+$values4: (0px, 276px, 0px, -276px, 149px, 136px, 562px, 412px, 'sprite.png', 'values4', );
+$values5-name: 'values5';
+$values5-x: 411px;
+$values5-y: 0px;
+$values5-offset-x: -411px;
+$values5-offset-y: 0px;
+$values5-width: 151px;
+$values5-height: 148px;
+$values5-total-width: 562px;
+$values5-total-height: 412px;
+$values5-image: 'sprite.png';
+$values5: (411px, 0px, -411px, 0px, 151px, 148px, 562px, 412px, 'sprite.png', 'values5', );
+$values6-name: 'values6';
+$values6-x: 226px;
+$values6-y: 0px;
+$values6-offset-x: -226px;
+$values6-offset-y: 0px;
+$values6-width: 185px;
+$values6-height: 138px;
+$values6-total-width: 562px;
+$values6-total-height: 412px;
+$values6-image: 'sprite.png';
+$values6: (226px, 0px, -226px, 0px, 185px, 138px, 562px, 412px, 'sprite.png', 'values6', );
+$spritesheet-width: 562px;
+$spritesheet-height: 412px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($finance1, $finance2, $finance3, $values1, $values2, $values3, $values4, $values5, $values6, );
+$spritesheet: (562px, 412px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(../images/sprites/#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

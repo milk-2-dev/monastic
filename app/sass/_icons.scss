@@ -1,0 +1,37 @@
+.icon{
+  display: inline-block;
+
+  &.icon-values1{
+    @include sprite($values1);
+  }
+
+  &.icon-values2{
+    @include sprite($values2);
+  }
+
+  &.icon-values3{
+    @include sprite($values3);
+  }
+
+  &.icon-values4{
+    @include sprite($values4);
+  }
+
+  &.icon-values5{
+    @include sprite($values5);
+  }
+
+  &.icon-values6{
+    @include sprite($values6);
+  }
+
+  &.icon-finance1{
+    @include sprite($finance1);
+  }
+  &.icon-finance2{
+    @include sprite($finance2);
+  }
+  &.icon-finance3{
+    @include sprite($finance3);
+  }
+}

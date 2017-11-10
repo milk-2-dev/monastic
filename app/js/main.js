@@ -3,7 +3,7 @@ var owl = $(".owl-carousel").owlCarousel({
     slideSpeed: 500,
     autoplay: true,
     autoplayTimeout: 4500,
-    loop: false,
+    loop: true,
     mouseDrag: true,
     singleItem: true,
     dots: true,

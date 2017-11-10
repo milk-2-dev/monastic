@@ -1,3 +1,11 @@
 @media (max-width: 767px) {
+  h2,h4{
+    font-size: 36px;
+  }
 
+  .custom-tabs .nav-item {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 15px;
+  }
 }

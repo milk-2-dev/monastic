@@ -21,7 +21,6 @@
     "jquery": "^3",
     "OwlCarousel2": "^2",
     "components-font-awesome": "^4.7.0",
-    "bootstrap": "v4.0.0-alpha.6",
-    "seiyria-bootstrap-slider": "^9.9.0"
+    "bootstrap": "v4.0.0-alpha.6"
   }
 }

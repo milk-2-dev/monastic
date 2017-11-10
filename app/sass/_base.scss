@@ -150,10 +150,18 @@ img {
   &.block-h100{
     height:100%;
   }
+
+  .block{
+    &:last-child{
+      .block-head{
+        border-bottom:none;
+      }
+    }
+  }
 }
 
 .block-title{
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto";
   color: map_get($colors, 'red');
   margin: 0;

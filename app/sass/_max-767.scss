@@ -1,11 +1,30 @@
 @media (max-width: 767px) {
   h2,h4{
-    font-size: 36px;
+    font-size: 30px;
   }
 
-  .custom-tabs .nav-item {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0 15px;
+  .custom-tabs{
+    .nav{
+      flex-direction: column;
+    }
+    .nav-item {
+      margin-right: 0;
+      margin-left: 0;
+      padding: 0 15px;
+    }
+
+    .nav-link{
+      &:after{
+        bottom:auto;
+        left:-10px;
+        top:0;
+        width: 3px;
+        height: 100%;
+      }
+    }
+  }
+
+  .block-head{
+    flex-direction: column;
   }
 }
